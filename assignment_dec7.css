@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(193, 204, 226);
+    font-family: 'Montserrat', sans-serif;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+#btn1, #task_list{
+    margin: 20px;
+}
+#btn1:hover{
+    cursor: pointer;
+}
+.tk::placeholder{
+    font-size: 20px;
+}
+#task_list{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
